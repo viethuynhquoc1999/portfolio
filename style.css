@@ -98,7 +98,7 @@ header nav ul li a:hover {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1500x800/222222/FFFFFF?text=Background+Image') no-repeat center center/cover; /* THAY THẾ: Ảnh nền đẹp nếu muốn */
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,23 +110,23 @@ header nav ul li a:hover {
 }
 
 .hero-content .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border-radius: 40%;
     object-fit: cover;
     border: 5px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #hero h1 {
     font-size: 3em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: white;
 }
 
 #hero p {
     font-size: 1.3em;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #eee;
 }
 
@@ -215,10 +215,11 @@ section:nth-of-type(even) {
 /* Experience Section */
 .experience-item {
     background-color: #fdfdfd;
-    padding: 25px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     margin-bottom: 30px;
+    position: relative;
 }
 
 .experience-item h3 {
@@ -274,7 +275,19 @@ footer {
     padding: 20px 0;
     font-size: 0.9em;
 }
+#slogan {
+    font-style: italic;
+}
 
+#kynang {
+    width: 250px;
+    position: absolute;
+}
+#chuthichkn{
+   position: relative;
+   margin-left: 250px;
+    list-style-type: none;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     header nav {
