@@ -18,12 +18,24 @@ body {
 h1, h2, h3 {
     color: #333;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 a {
     color: #007bff;
     text-decoration: none;
+}
+
+.container p{
+    text-align: justify;
+}
+
+#contact p{
+    text-align: center;
+}
+
+li {
+    text-align: justify;
 }
 
 a:hover {
